@@ -10,11 +10,12 @@ import com.amazonaws.regions.Regions;
  */
 public class S3Configuration {
 	public static final String DEFAULT_AWS_REGION = Regions.US_WEST_2.name();
+	public static final String DEFAULT_SE_AWS_REGION = Regions.AP_SOUTHEAST_1 .name();
 	public static final String DEFAULT_LOG_BUCKETPATH = "logs/";
 	
 	private String accessKey = null;
 	private String secretKey = null;
-	private String region = DEFAULT_AWS_REGION;
+	private String region = DEFAULT_SE_AWS_REGION;
 	private String bucket = null;
 	private String path = DEFAULT_LOG_BUCKETPATH;
 	
